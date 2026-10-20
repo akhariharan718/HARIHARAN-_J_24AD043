@@ -1,0 +1,41 @@
+Results from the fixed random-seed run
+{
+  "accuracy": 0.9418604651162791,
+  "precision": 0.9298245614035088,
+  "recall": 0.9814814814814815,
+  "f1": 0.954954954954955,
+  "auc": 0.9918981481481481,
+  "best_hidden_layers": "(64, 32)",
+  "best_validation_accuracy": 0.9882352941176471,
+  "train_rows": 398,
+  "validation_rows": 85,
+  "test_rows": 86,
+  "rows": 569,
+  "features": 30,
+  "missing_values": 0,
+  "duplicate_rows": 0,
+  "class_counts": {
+    "benign": 357,
+    "malignant": 212
+  },
+  "candidate_results": [
+    [
+      "(32,)",
+      0.9764705882352941,
+      58
+    ],
+    [
+      "(64, 32)",
+      0.9882352941176471,
+      51
+    ],
+    [
+      "(64, 32, 16)",
+      0.9647058823529412,
+      41
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.97      0.88      0.92        32\n      benign       0.93      0.98      0.95        54\n\n    accuracy                           0.94        86\n   macro avg       0.95      0.93      0.94        86\nweighted avg       0.94      0.94      0.94        86\n"
+}
+
+Medical/clinical disclaimer: educational use only; not a diagnostic tool.
